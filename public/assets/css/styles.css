@@ -1,0 +1,73 @@
+:root {
+  --eco-green: #4aa400;
+  --eco-green-2: #7fb343;
+  --eco-dark: #1f1f1f;
+  --eco-light: #f6f6ee;
+  --eco-cream: #f7f4e9;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Sans", "Trebuchet MS", sans-serif;
+  background: #f6f6ee;
+  color: var(--eco-dark);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.uploaded-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.shadow-soft {
+  box-shadow: 0 20px 40px -20px rgba(27, 59, 27, 0.25);
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px -25px rgba(27, 59, 27, 0.35);
+}
+
+.btn-eco {
+  background: var(--eco-green);
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn-eco:hover {
+  background: #256a2a;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -18px rgba(37, 106, 42, 0.6);
+}
+
+.section-kicker {
+  letter-spacing: 0.2em;
+}
+
+.gradient-pill {
+  background: linear-gradient(90deg, rgba(47, 125, 50, 0.12) 0%, rgba(76, 175, 80, 0.18) 100%);
+}
+
+.hero-overlay {
+  background: linear-gradient(120deg, rgba(17, 55, 20, 0.6) 0%, rgba(17, 55, 20, 0.2) 55%, rgba(17, 55, 20, 0.05) 100%);
+}
+
+.nav-blur {
+  backdrop-filter: blur(14px);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.aos-init {
+  will-change: transform, opacity;
+}

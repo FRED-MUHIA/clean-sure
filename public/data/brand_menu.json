@@ -1,0 +1,86 @@
+{
+    "logo_text": "Cleansure",
+    "logo_href": "/assets/uploads/Untitledx-2_1773153044.png",
+    "logo_icon_class": "fa-solid fa-leaf",
+    "logo_image": "/assets/uploads/goxxx_errads-02_1773153239.png",
+    "favicon": "",
+    "phone_text": "+ 1 (180) 567-8990",
+    "phone_href": "tel:+11805678990",
+    "quote_text": "Free Quote",
+    "quote_href": "/contact",
+    "top_links": [
+        {
+            "label": "Contact us",
+            "url": "/contact"
+        },
+        {
+            "label": "Pricing",
+            "url": "/pricing"
+        },
+        {
+            "label": "Blog",
+            "url": "/blog"
+        }
+    ],
+    "groups": [
+        {
+            "label": "Home",
+            "items": [
+                {
+                    "label": "Small Cleaning company",
+                    "url": "#"
+                },
+                {
+                    "label": "Big Cleaning company",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "label": "Services",
+            "items": [
+                {
+                    "label": "House cleaning",
+                    "url": "/services"
+                },
+                {
+                    "label": "Office cleaning",
+                    "url": "/services"
+                },
+                {
+                    "label": "Deep cleaning",
+                    "url": "/services"
+                },
+                {
+                    "label": "Move in out cleaning",
+                    "url": "/services"
+                },
+                {
+                    "label": "Post construction cleaning",
+                    "url": "/services"
+                },
+                {
+                    "label": "Recurring cleaning",
+                    "url": "/services"
+                }
+            ]
+        },
+        {
+            "label": "About us",
+            "items": [
+                {
+                    "label": "Who we are",
+                    "url": "/about"
+                },
+                {
+                    "label": "Cleaning process",
+                    "url": "/about"
+                },
+                {
+                    "label": "Customer reviews",
+                    "url": "/about"
+                }
+            ]
+        }
+    ]
+}
