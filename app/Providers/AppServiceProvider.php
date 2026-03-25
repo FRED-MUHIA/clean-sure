@@ -11,7 +11,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+        if ($this->forceFileBackends()) {
+            config([
+                'session.driver' => 'file',
+                'cache.default' => 'file',
+                'queue.default' => 'sync',
+            ]);
+        }
     }
 
     /**
@@ -20,5 +26,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //
+    }
+
+    private function forceFileBackends(): bool
+    {
+        return filter_var(env('FORCE_FILE_BACKENDS', true), FILTER_VALIDATE_BOOL);
     }
 }
